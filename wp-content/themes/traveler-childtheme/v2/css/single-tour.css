@@ -376,6 +376,8 @@ input[type="text"]::-ms-input-placeholder, input[type="email"]::-ms-input-placeh
   opacity: 1;
   /* Firefox */ }
 
+  /* Test Purpose @rodgers*/
+
 input[type="text"]::placeholder, input[type="email"]::placeholder, input[type="password"]::placeholder, input[type="phone"]::placeholder, input[type="number"]::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: rgba(94, 109, 119, 0.5);
