@@ -1,0 +1,20 @@
+2019-11-16T09:35:18+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/utaliip/wp-content/plugins/traveler-code/importer/wordpress-importer.php:911
+Stack trace:
+#0 /var/www/html/utaliip/wp-content/plugins/traveler-code/importer/wordpress-importer.php(850): WP_Import->fetch_remote_file('http://shinethe...', Array)
+#1 /var/www/html/utaliip/wp-content/plugins/traveler-code/importer/wordpress-importer.php(602): WP_Import->process_attachment(Array, 'http://shinethe...')
+#2 /var/www/html/utaliip/wp-content/plugins/traveler-code/importer/wordpress-importer.php(107): WP_Import->process_posts()
+#3 /var/www/html/utaliip/wp-content/plugins/traveler-code/importer/st.importer.php(195): WP_Import->import('/var/www/html/u...')
+#4 /var/www/html/utaliip/wp-content/plugins/traveler-code/importer/st.importer.php(19): STImporter::doImport()
+#5 /var/www/html/utaliip/wp-includes/class-wp-hook.php(288): STImporter::init('')
+#6 /var/www/html/utaliip/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#7 /var/ in /var/www/html/utaliip/wp-content/plugins/traveler-code/importer/wordpress-importer.php on line 911
+
+2019-11-16T10:15:39+00:00 CRITICAL Uncaught Error: Class 'STAdminCars' not found in /var/www/html/utaliip/wp-content/themes/traveler/inc/layouts/modern/class/class.travelobject.php:738
+Stack trace:
+#0 /var/www/html/utaliip/wp-content/themes/traveler/st_templates/layouts/modern/car_transfer/elements/search/advanced.php(35): TravelerObject::get_min_max_price('car_transfer')
+#1 /var/www/html/utaliip/wp-content/themes/traveler/inc/core/class.shinetheme.php(188): include('/var/www/html/u...')
+#2 /var/www/html/utaliip/wp-content/themes/traveler/st_templates/layouts/modern/car_transfer/elements/search-form-home.php(27): STFramework->load_template('layouts/modern/...', '')
+#3 /var/www/html/utaliip/wp-content/themes/traveler/inc/core/class.shinetheme.php(188): include('/var/www/html/u...')
+#4 /var/www/html/utaliip/wp-content/themes/traveler/st_templates/layouts/modern/elements/search_form.php(128): STFramework->load_template('layouts/modern/...', 'home', Array)
+#5 /var/www/html/utaliip/wp-content/themes/traveler/inc/core/class.shinetheme.php(188): incl in /var/www/html/utaliip/wp-content/themes/traveler/inc/layouts/modern/class/class.travelobject.php on line 738
+
